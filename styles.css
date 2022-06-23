@@ -10,20 +10,33 @@ body {
   justify-content: center;
   align-items: center;
 }
-nav{
-  background-color:hsl(0, 0%, 95%) ;  
-}
-nav ul{
-    list-style: none;
-    text-transform: capitalize;
-   max-width: 750px;;
-}
-.container {
+
+.container,
+nav {
   display: flex;
   align-items: center;
   max-width: 750px;
   border-radius: 4px;
 }
+
+nav {
+  height: 3rem;
+  justify-content: space-around;
+  background-color: hsl(184, 100%, 22%);
+  min-width: 20rem;
+  border-radius: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid white;
+  width: 5rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
 .car-item1,
 .car-item2,
 .car-item3 {
@@ -92,8 +105,8 @@ img {
   }
 }
 @media (max-width: 600px) {
-  .container{
-   flex-direction: column;
+  .container {
+    flex-direction: column;
     max-width: 375px;
   }
 }
