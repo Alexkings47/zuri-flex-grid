@@ -10,18 +10,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-nav{
-  background-color:hsl(0, 0%, 95%) ;  
+nav {
+  background-color: hsl(0, 0%, 95%);
 }
-nav ul{
-    list-style: none;
-    text-transform: capitalize;
-   max-width: 750px;;
+nav ul {
+  list-style: none;
+  text-transform: capitalize;
+  max-width: 750px;
 }
-nav{
-height: 2rem;
+nav {
+  height: 2rem;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
 }
-.container, nav {
+.container,
+nav {
   display: flex;
   align-items: center;
   max-width: 750px;
@@ -95,8 +98,8 @@ img {
   }
 }
 @media (max-width: 600px) {
-  .container{
-   flex-direction: column;
+  .container {
+    flex-direction: column;
     max-width: 375px;
   }
 }

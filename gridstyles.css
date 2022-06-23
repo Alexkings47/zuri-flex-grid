@@ -10,13 +10,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-nav{
-  background-color:hsl(0, 0%, 95%) ;  
+nav {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  align-items: center;
+  max-width: 750px;
+  border-radius: 4px;
+  height: 2rem;
 }
-nav ul{
-    list-style: none;
-    text-transform: capitalize;
-   max-width: 750px;
+nav ul {
+  list-style: none;
+  text-transform: capitalize;
+  max-width: 750px;
 }
 .container {
   display: grid;
