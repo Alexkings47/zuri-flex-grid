@@ -18,7 +18,10 @@ nav ul{
     text-transform: capitalize;
    max-width: 750px;;
 }
-.container {
+nav{
+height: 2rem;
+}
+.container, nav {
   display: flex;
   align-items: center;
   max-width: 750px;
